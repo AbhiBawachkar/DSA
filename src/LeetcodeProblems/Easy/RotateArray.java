@@ -1,4 +1,4 @@
-package LeetcodeProblems;
+package LeetcodeProblems.Easy;
 import java.util.Arrays;
 
 public class RotateArray {

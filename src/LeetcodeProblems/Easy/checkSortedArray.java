@@ -1,4 +1,4 @@
-package LeetcodeProblems;
+package LeetcodeProblems.Easy;
 
 public class checkSortedArray {
     public static boolean checkSorted(int arr[]){

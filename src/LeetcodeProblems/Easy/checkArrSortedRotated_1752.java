@@ -1,4 +1,4 @@
-package LeetcodeProblems;
+package LeetcodeProblems.Easy;
 
 public class checkArrSortedRotated_1752 {
     static boolean checkSortedRotated(int arr[]){
