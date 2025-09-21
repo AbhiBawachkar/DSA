@@ -4,13 +4,13 @@ import java.util.Arrays;
 
 public class MoveZerosToEndOp {
     public static int[] move(int[] arr){
-        int left = 0;
-        for(int right = 0; right < arr.length; right++){
-            if(arr[right] != 0){
-                int temp = arr[right];
-                arr[right] = arr[left];
-                arr[left] = temp;
-                left++;
+        int nonZero = 0;
+        for(int i = 0; i < arr.length; i++){
+            if(arr[i] != 0){
+                int temp = arr[i];
+                arr[i] = arr[nonZero];
+                arr[nonZero] = temp;
+                nonZero++;
             }
         }
         return arr;
